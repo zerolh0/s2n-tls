@@ -9,7 +9,7 @@ on:
 
 jobs:
   testfreebsd:
-    runs-on: ubuntu-latest
+    runs-on: codebuild-ubuntu-small
     name: CI FreeBSD
     steps:
       - uses: actions/checkout@v3
