@@ -11,7 +11,7 @@ on:
 
 jobs:
   duvet:
-    runs-on: ubuntu-latest
+    runs-on: codebuild-ubuntu-small
     steps:
       - name: Clone s2n-tls
         uses: actions/checkout@v3
